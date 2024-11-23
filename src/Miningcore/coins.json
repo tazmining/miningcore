@@ -5244,5 +5244,37 @@
         "explorerBlockLink": "https://wartscan.io/block/$height$",
         "explorerTxLink": "https://wartscan.io/tx/{0}",
         "explorerAccountLink": "https://wartscan.io/account/{0}"
+            },
+    "kusa": {
+        "name": "kusa",
+        "canonicalName": "kusa",
+        "symbol": "KUSA",
+        "family": "bitcoin",
+        "website": "https://kusameme.fans/",
+        "twitter": "",
+        "telegram": "#",
+        "discord": "",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "ghostrider"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "sha256d"
+                }
+            ]
+        },
+        "hasFounderFee": true,
+        "hasMasterNodes": true,
+        "hasSmartNodes": true,
+        "shareMultiplier": 65536,
+        "explorerBlockLink": "https://explorer.kusameme.fans/block/$height$",
+        "explorerTxLink": "https://explorer.kusameme.fans/tx/{0}",
+        "explorerAccountLink": "https://explorer.kusameme.fans/address/{0}"
+    },
     }
 }
